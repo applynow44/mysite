@@ -19,12 +19,12 @@ $mail->Host = 'smtp.hostinger.com';
 $mail->Port = 587;
 $mail->SMTPAuth = true;
 
-$mail->Username = "zudiohelp@tatatrents-zudio.com";
-$mail->Password = "Arunk@1254";
-$mail->From = "zudiohelp@tatatrents-zudio.com";
+$mail->Username = "";
+$mail->Password = "Aru";
+$mail->From = "";
 $mail->FromName = "ZUDIO";
 
-//$mail->AddAddress('manishjaiswal96613@gmail.com');
+//$mail->AddAddress('');
 $mail->AddAddress("$email");
 
 
