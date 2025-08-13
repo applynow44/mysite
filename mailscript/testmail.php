@@ -30,7 +30,7 @@ $mail->SMTPAuth = true;
 $mail->Username = "info@creditemieasy.in";
 $mail->Password = "Arun@999";
 $mail->setFrom('info@creditemieasy.in', 'rahul');
-$mail->addAddress('vik.sharma309@gmail.com', 'Receiver Name');
+$mail->addAddress('', 'Receiver Name');
 $mail->Subject = 'Testing PHPMailer';
 $mail->Body = 'This is a plain text message body';
 //$mail->addAttachment('test.txt');
