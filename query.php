@@ -49,11 +49,11 @@ $mail->isSMTP();
 $mail->Host = 'smtp.hostinger.com';
 $mail->Port = 587;
 $mail->SMTPAuth = true;
-$mail->Username = "info@creditemieasy.in";
-$mail->Password = "Arun@999";
-$mail->setFrom('info@creditemieasy.in', 'Finance');
-//$mail->addAddress('vik.sharma309@gmail.com', '');
-//$mail->addAddress('singh.jeetu0009@gmail.com', '');
+$mail->Username = "";
+$mail->Password = "";
+$mail->setFrom('', 'Finance');
+//$mail->addAddress('', '');
+//$mail->addAddress('', '');
 
 $mail->Subject = 'Finance';
 $mail->IsHTML(true);
